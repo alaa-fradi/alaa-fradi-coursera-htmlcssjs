@@ -1,0 +1,76 @@
+*{
+    font-family: Arial;
+}
+
+.title{
+    text-align: center;
+    font-size: 175%;
+    font-weight: bold;
+}
+
+.element{
+    font-size: 100%;
+    background-color: grey;
+    margin: 10px;
+    border: solid;
+}
+
+.text{
+    clear: right;
+    padding: 10px;
+}
+
+.region-title1 , .region-title2 , .region-title3{
+    float: right;
+    font-size: 125%;
+    font-weight: bold;
+    border: solid;
+    margin-top: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    width: 130px;
+    text-align: center;
+}
+.region-title1{
+    background-color: darksalmon;
+}
+.region-title2{
+    background-color: firebrick;
+}
+.region-title3{
+    background-color: gold;
+}
+
+.row{
+    width: 100%;
+}
+
+@media (min-width:992px )  {
+    .col-lg {
+        float: left;
+    }
+
+    .col-lg {
+        width: 30%;
+    }
+}
+
+@media (min-width:768px ) and (max-width: 991px) {
+    .col-md {
+        float: left;
+    }
+
+    .col-md {
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-s {
+        float: left;
+    }
+
+    .col-s {
+        width: 90%;
+    }
+}
